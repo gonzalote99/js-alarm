@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.container {
+  background-color: #fff;
+  width: 30%;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+  margin: 2rem 0 1rem 0;
+}
+
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 1.5em;
+}
+
+.alam-setting .disable {
+pointer-events: none;
+opacity: 0.6;
+}
+
+.container .alam-setting form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .alam-setting form select {
+  flex-basis: 30%;
+  padding: 0.4rem;
+  font-size: 18px;
+  outline: none;
+  color: black;
+}
+
+
+.container .alam-setting form select option {
+  color: black;
+}
+
+.container .alam-setting input {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 18px;
+  background-color: coral;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 1rem 0;
+
+}
+
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+}
